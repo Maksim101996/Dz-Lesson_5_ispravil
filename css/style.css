@@ -1,0 +1,179 @@
+@import "null.css";
+
+@font-face {
+	font-family: "Circe";
+	src: url("../fonts/Circe-Light.woff2") format("woff2"), url("../fonts/Circe-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Circe";
+	src: url("../fonts/Circe-ExtraBold.woff2") format("woff2"), url("../fonts/Circe-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CodePro";
+	src: url("../fonts/Code-Pro.woff2") format("woff2"), url("../fonts/Code-Pro.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CodePro";
+	src: url("../fonts/Code-Pro-Bold.woff2") format("woff2"), url("../fonts/Code-Pro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CodePro";
+	src: url("../fonts/Code-Pro-Black.woff2") format("woff2"), url("../fonts/Code-Pro-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "CodePro", "sans-serif";
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	max-width: 1500px;
+	margin: 0 0 0 auto;
+	background-color: #d9d0de;
+}
+
+.heading-1 {
+	font-family: "Circe", "sans-serif";
+	font-weight: 800;
+	color: red;
+	font-size: 35px;
+	margin-bottom: 40px;
+	text-shadow: 10px 10px 10px #333;
+	text-align: right;
+}
+
+.menu {
+	font-family: "Circe", "sans-serif";
+	font-weight: 300;
+	color: blueviolet;
+	font-size: 28px;
+	letter-spacing: 4px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.one-car {
+	overflow: scroll;
+	background-color: seagreen;
+	margin-bottom: 50px;
+	max-height: 200px;
+	text-align: center;
+	color: #28524c;
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+
+.one-car span {
+	font-size: 30px;
+	color: burlywood;
+}
+
+.kopeyka {
+	width: 800px;
+	margin-bottom: 50px;
+}
+
+.six-car {
+	background-color: #a04668;
+	padding: 40px;
+	margin-bottom: 50px;
+	max-height: 150px;
+	overflow: hidden;
+	color: blue;
+	text-decoration: underline;
+}
+
+.six-car span {
+	color: seagreen;
+}
+
+.shesterka {
+	margin-bottom: 50px;
+}
+
+.seven-car {
+	background-color: #29638a;
+	overflow: auto;
+	height: 200px;
+	color: #ae9806;
+	padding: 0 50px 0 50px;
+	margin: 0 0 50px 0;
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+
+.seven-car span {
+	font-size: 25px;
+	color: crimson;
+}
+
+.semerka {
+	margin: 0 0 50px 0;
+}
+
+.moskvich-car {
+	background-color: #a63a3a;
+	color: seagreen;
+	padding: 60px;
+	margin: 0 0 50px 0;
+	text-decoration: line-through;
+	overflow: scroll;
+}
+
+.moskvich-car span {
+	color: #3885bc;
+	font-size: 28px;
+}
+
+.moskva {
+	margin-bottom: 50px;
+}
+
+.zap-car {
+	background-color: #cbc517;
+	overflow: auto;
+	height: 200px;
+	padding-left: 50px;
+	margin-bottom: 50px;
+	font-weight: 700;
+	color: red;
+}
+
+.zap-car span {
+	color: seagreen;
+	font-size: 25px;
+}
+
+.zap {
+	margin-bottom: 100px;
+}
+
+.link {
+	margin: 50px 0 50px 50px;
+	display: inline-block;
+	color: red;
+	font-size: 25px;
+}
